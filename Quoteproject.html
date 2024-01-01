@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            font-family:'Times New Roman', Times, serif;
+        }
+        body{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            height:100vh;
+            background-image: url(falop.jpg);
+            background-size: cover;
+            
+        }
+        #newQuote{
+            background-color: black;
+            color:rgb(241, 239, 239);
+            padding:9px;
+            
+            font-size: 1.0rem;
+            margin-top:12px;
+
+            border-radius: 10px;
+        }
+        .heading{
+            background-color: black;
+            color:rgb(237, 233, 233); 
+            border:3px solid whitesmoke
+            
+        }
+        .quoteArea{
+            padding:40px;
+            background-color: rgba(250, 235, 215, 0.905);
+            border-radius:20px;
+           
+            font-size: 1.2em;
+            line-height:1.2;
+            
+            
+        }
+        .personName{
+            font-family:cursive;
+            margin-top: 15px;
+            text-transform:uppercase ;
+            
+            color:brown;
+
+          
+        }
+    
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="HEAD">
+        <h1 class="heading">Javascript Quote Generator</h1>
+    </div>
+
+    <div class="quoteArea">
+        <span class="Quote">
+            When I have laid bait for deer,
+            <br>
+        I don’t shoot at the first doe that comes to snif ,
+            <br>
+        but wait until the whole herd has gathered round.
+
+        </span>     
+<br>
+<br>
+
+
+    <div class="personName">
+        Otto von Bismarck, 1815-1898
+    </div>
+
+   
+    <div class="buttonArea">
+        <button id="newQuote">
+            New Quote
+        </button>
+    </div>
+    
+    </div>
+
+  </div>  
+</body>
+
+<script src="Quoteproject.js"></script>
+</html>
